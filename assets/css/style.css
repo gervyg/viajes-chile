@@ -1,7 +1,7 @@
 .negro {background-color: black;}
 .borde {border-color: black;}
 .body {background-color: black; font-family: 'Cabin';}
-
+.svg { height: 25px; }
 .card img{
     height: 195.5px;
 }
