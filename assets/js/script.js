@@ -1,6 +1,11 @@
-$(function(){
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+});
 
-$("a").click(Function(Event){
+/*$(function(){
+
+$("a").click(function(event){
     if (this.hash !=="") {
         event.defaultPrevented();
 
@@ -8,8 +13,10 @@ $("a").click(Function(Event){
         $("html,body").animate({ scolltop: $(gato.offset().top
         }, 800,funtion(){
             window.location.hash = gato;
-        ]);
-
-}
+        });
+    
+    }
 
 });
+
+});*/

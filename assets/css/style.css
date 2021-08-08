@@ -1,3 +1,13 @@
 .negro {background-color: black;}
 .borde {border-color: black;}
-.body {background-color: black;}
+.body {background-color: black; font-family: 'Cabin';}
+
+.card img{
+    height: 195.5px;
+}
+
+@media (max-width: 767.98px) { 
+    #quienesSomos{
+        display: none;
+    }
+}
